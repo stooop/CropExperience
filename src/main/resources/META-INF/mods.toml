@@ -1,0 +1,22 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)"
+#issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="cropexp"
+version="${version}"
+displayName="The Crop Experience"
+#updateJSONURL="http://myurl.me/"
+logoFile="logo.png"
+credits="RealGecko for the original XP From Harvest mod, which this is heavily based on"
+authors="stoop"
+description='''
+Experience can now drop when harvesting fully grown wheat, potatoes, carrots, beetroots, nether wart, pumpkins, and melons. Check the configuration to tweak the chance and amount of experience dropped.
+'''
+
+[[dependencies.cropexp]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="AFTER"
+    side="BOTH"
